@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5afcd7f85f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h2 class="logo"><span>S</span>ylvia</h2>
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programming-languages">Programing Languages</a></li>
+                <li><a href="#my-projects">My projects</a></li>
+                <li><a href="#interest">interest</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <div class="row-text">
+
+            <h1>Hi, I'm <span>Sylvia</span><br> from Kenya</h1>
+            
+                <img src="Images/home1.jpeg" alt="Sylvia">
+            </div>
+        </div>
+            
+           
+       
+
+    </div>
+
+</div>
+
+<!----------------about----------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/about.jpeg" alt="Sylvia">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I am Sylvia, a passionate and driven web developer with a few years of experience in crafting dynamic and responsive web applications. 
+                    My journey in web development began with a fascination for technology and design, which has evolved into a deep commitment to creating seamless and engaging user experiences.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span> <br>Web applications</li>
+                        <li><span>Front-end Developer</span> <br>Designing web pages</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024-</span> <br>Web Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2019-2024</span> <br>Bachelor's Degree</li>
+                        <li><span>2024</span> <br>FreeCodeCamp Web Application</li>
+                        <li><span>2024</span> <br>CS50x | CS50p</li>
+                        <li><span>2024</span> <br>PLP Academy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-----------------------------services---------------------------------------->
+
+<div id="programming-languages">
+    <div class="container">
+        <hi class="sub-title">My programming Languages</hi>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web Development</h2>
+                <p>I HTML,CSS and some java <script></script>in the design and development of scripts, code, software, and applications</p>
+                
+            </div>
+            
+
+            
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Python</h2>
+                <p> Python is a key language in my portfolio because of its simplicity and versatility.
+                     It is great for tasks ranging from web development to data analysis and automation.
+                      Python's easy-to-read syntax and powerful libraries, like Django for web apps and Pandas for data manipulation, make it a go-to choice for many projects. Its broad community support ensures that I have access to plenty of resources and tools to solve various programming challenges.</p>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>PHP</h2>
+                <p>PHP is an important part of my skill set, especially for web development.
+                     It is widely used for creating dynamic websites and applications. PHP works well with databases like MySQL and integrates smoothly with HTML.
+                     I have used PHP to build and maintain web solutions, leveraging its flexibility and strong framework support to develop functional and efficient web applications.</p>
+                <a href="#"></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------portfolio----------------->
+
+<div id="my-projects">
+    <div class="container">
+        <hi class="sub-title">My projects</hi>
+        <div class="work-list">
+            <div class="work">
+                
+                <div class="layer">
+                    <h3>Eaglerift webpage</h3>
+                    <p>Eaglerift webpage is my first ever programming application i have created using html,css and some javascript.
+                        This is my basic foundation in codding and i intend to add more skills in the codding journey</p>
+
+                    <a href="https://eaglerift.org/">Eaglerifttech</a>
+                </div>
+            </div>
+            <div class="work">
+                
+                <div class="layer">
+                    <h3>Port Scanner</h3>
+                    <p>Python script that checks for open and closed ports of websites and web-based applications.
+                        This is an ongoing project yet to be completed
+                    </p>
+                    
+            </div><div class="work">
+                
+                <div class="layer">
+                    <h3>SQL Injection Vulnerability Assessor</h3>
+                    <p>Python script that checks for SQL injection attack-vulnerabilities in websites and web-based applications</p>
+                    
+            </div>
+        </div>
+        <a href="https://github.com/Syl-NM" class="btn">See more</a>
+    </div>
+</div>
+<div id="interest">
+
+<div class="background">
+    <h1>Interests</h1>
+    </div>
+<section class="about-us">
+    <div class="row">
+      <div class="about-col">
+       
+        
+  <h2>Who  am i </h2> 
+  <p> I am sylvia, a student trying to pursue software engineering as a self-tought developer. i got a key interest in the programming world 
+    and to be specific in web development. My desire for programming arose by the need of doing something for my self i saw this as an opporyunity to build somrthing for my own.
+    my key interest the tech world are: <br> <br> -Web development using html and css<br>
+   - App development; i intend to gather more information on app development and desigin my own apps.
+    </p>
+    
+        
+      </div>
+      
+    </div>
+  
+  </section>
+  <section class="more">
+    <div class="row">
+      <div class="more-col"><h2>What Sets me Apart</h2>
+        <p>
+            Innovative Solutions: I pride myself on my ability to develop groundbreaking software that streamlines processes and drives efficiency.<br>
+            
+            Customer-Centric Approach: My clients are at the heart of everything we do. I listen to their feedback and continuously improve our products based on their input.<br>
+            
+            Expert Team: My team of talented professionals brings together expertise from diverse backgrounds, including software development, data science, UX/UI design.</p>
+    
+        </div>
+      </div>
+    </section>
+    <section class="values">
+      <div class="row">
+        <div class="values-col">
+          <h2> MY Values</h2>
+          <p>Innovation:  I embrace innovation and continuously strive to push the boundaries of what's possible.<br><br>
+    
+            Integrity: I conduct my researches with the highest standards of honesty, transparency, and ethical behavior.<br><br>
+            Collaboration: I believe in the power of collaboration and teamwork to achieve my goals.<br><br>
+            Teamwork: I strongly believe that unity is strength.<br><br>
+            
+            Excellence: I am  committed to excellence in everything i do, from product development to customer support.</p>
+        </div>
+        <div class="values-col">
+          <img src="images/about.jpg">
+        </div>
+    </div>
+  </section>
+</div>
+  
+
+<!-------------------------contact---------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> sylviamacharia495@gmail.com </p>
+                <p> <i class="fa-sharp fa-solid fa-square-phone"></i> 0792138465</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/sly-21912b273"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/sly_Resume.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © SYlVIA web Designer | web Developer</p>
+    </div>
+</div>
+
+        
+
+<script>
+
+    var tablinks =  document.getElementsByClassName("tab-links");
+    var tabcontents =  document.getElementsByClassName("tab-contents"); 
+    
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxzeyvk4OCIEg8ePAhx9KpzaqGLIhg7aiDCsl70xnzpc8KiH_Bhf6lZ-8CKrzVM2oSL6A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
